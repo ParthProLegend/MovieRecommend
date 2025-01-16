@@ -2,7 +2,7 @@ import MovieDatabase as CatFind
 import MovieCategoryCompiler as CatCompiler
 import MovieDataCleaner as DataCleaner
 
-MovieData = "MovieData.txt"
+MovieData = "MovieData"
 
 def FindRecommendations(user_watchlist=dict, user_choice="0"):
     DataCleaner.DataCleanerService()
