@@ -23,7 +23,8 @@ def FindRecommendations(user_watchlist=dict, user_choice="0"):
     # print("Categories liked: ", categories_liked)
     # print("\nCategories liked by user: ", categories_liked_by_user)
 
-    number_of_recommended_movies = 10
+    number_of_recommended_movies = int(input("How many recommendations do you want?"))
+    # number_of_recommended_movies = 10
     recommended_movies = list()
     with open(MovieData, mode="r", encoding="utf-8") as CompiledMovieData:
         for EachLine in CompiledMovieData:
