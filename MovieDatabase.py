@@ -1,4 +1,4 @@
-OriginalFile = "Inside Lab\\WWC_24\\FinalProject\\OriginalMovieData\\title.basics.tsv"
+OriginalFile = "OriginalMovieData\\title.basics.tsv"
 MovieData = "MovieData.txt"
 
 
@@ -48,7 +48,6 @@ def MovieDictionaryCreator():
             r.write(f"{key}\t{value}\n")
 
     r.close()
-    # return TempDictionary
 
 
 def MovieNameTeller(movies_list=list):
