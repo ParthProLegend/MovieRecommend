@@ -1,5 +1,5 @@
 OriginalFile = "OriginalMovieData\\title.basics.tsv"
-CompiledCategoryFile = "CategoryData.txt"
+CompiledCategoryFile = "CategoryData"
 
 
 def MovieCategoryAggregator():
