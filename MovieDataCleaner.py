@@ -1,7 +1,7 @@
 def DataCleanerService():
 
-    CompiledCategoryFile = "CategoryData.txt"
-    MovieData = "MovieData.txt"
+    CompiledCategoryFile = "CategoryData"
+    MovieData = "MovieData"
 
 
     # Clearing Old File Data or Creating New Files
