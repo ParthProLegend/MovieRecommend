@@ -1,4 +1,4 @@
-OriginalFile = "Inside Lab\\WWC_24\\FinalProject\\OriginalMovieData\\title.basics.tsv"
+OriginalFile = "OriginalMovieData\\title.basics.tsv"
 CompiledCategoryFile = "CategoryData.txt"
 
 
