@@ -1,5 +1,5 @@
 OriginalFile = "OriginalMovieData\\title.basics.tsv"
-MovieData = "MovieData.txt"
+MovieData = "MovieData"
 
 
 def FindMostLikedMovieCategories(movie_liked_list=dict, categories_liked=dict):
